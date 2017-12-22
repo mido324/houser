@@ -1,4 +1,4 @@
-const initialState = {
+const initialState = { //simulation -2    43G
     loanType: 'Home Purchase',
     propertyType: 'Single Family Home',
     city: '',
@@ -26,7 +26,8 @@ function reducer(state = initialState, action) {
         case UPDATE_LOAN_TYPE:
             return Object.assign({}, state, {loanType: action.payload});
 
-        case UPDATE_PROPERTY_TYPE:
+case UPDATE_PROPERTY_TYPE : //simulation-2 43E
+//43 F
             return Object.assign({}, state, {propertyType: action.payload});
         default:
             return state;
@@ -50,3 +51,4 @@ export function updateProp(prop) {
     return {type: UPDATE_PROP, payload: prop}
 }
 export default reducer;
+// simulation -2 43D

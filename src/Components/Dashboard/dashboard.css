@@ -30,13 +30,10 @@
 
 .logout {
     background-color: #519872;
-    
     color: white;
-    float: right;
-    height: 5vh;
-    width: 5vw;
-    border: black 2px solid;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans',
+    sans-serif;
+    display: inline-flex;
 }
 
 .content {

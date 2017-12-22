@@ -13,12 +13,13 @@ export default function () {
                         <p className="title">
                             <strong>Houser</strong>
                             Dashboard</p>
-                    </div>
                     <Link to="/">
-                        <div className="logout">
-                            <strong className="logout">Logout</strong>
+                        <div >
+            <strong className = "logout" > Logout </strong>
                         </div>
                     </Link>
+                    </div>
+                    
                 </div>
             </div>
             <div className="content">
