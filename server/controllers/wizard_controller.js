@@ -30,7 +30,7 @@ module.exports = {
                 monthlymortgage,
                 desiredrent,
                 userid
-            ])
+            )
             .then(property => {
                 res
                     .status(200)

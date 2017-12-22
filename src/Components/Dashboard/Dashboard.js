@@ -24,6 +24,14 @@ export default function () {
             </div>
             <div className="content">
                 <div className="middle"></div>
+            <button>Add Property</button>
+            <p>add property here if you want to rent it $ 
+                <input type = "search" />
+                <button>Filter</button>
+                <button> Reset</button>
+            </p>
+            
+
             </div>
 
             <div>
