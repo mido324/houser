@@ -9,11 +9,11 @@ import Dashboard from './Components/Dashboard/Dashboard'
 import {HashRouter} from 'react-router-dom'
 import {Switch, Route} from 'react-router-dom';
 
-export default(
+export default( //simulation -2 42G
 
     <Switch>
         <Route exact path='/' component={Auth}/>
-        <Route path='/dashboard' component={Dashboard}/>
+        <Route path='/dashboard' component={Dashboard}/> 
         {/* <Route path='/step1' component={Step1}/>
         <Route path='/step2' component={Step2}/>
         <Route path='/step3' component={Step3}/>

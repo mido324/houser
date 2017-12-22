@@ -29,9 +29,9 @@ app.use(checkForSession);
 
 
 
-massive(process.env.CONNECTION_STRING).then(db => {
-    app.set('db', db);
-}).catch(err => console.log(err));
+// massive(process.env.CONNECTION_STRING).then(db => {
+//     app.set('db', db);
+// }).catch(err => console.log(err));
 // simulation - 2   75D
 app.post('/api/properties', wizard_controller.create);
 app.get('/api/properties', wizard_controller.get);
